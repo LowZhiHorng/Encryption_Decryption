@@ -1,4 +1,4 @@
-# Encryption_Decryption_System
+# Encryption_Decryption
 A simple base85/64/32/16 encryption and decryption coding
 
 Encryption
