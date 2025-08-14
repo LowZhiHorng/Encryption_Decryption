@@ -1,7 +1,7 @@
 # 🔐 Encryption & Decryption System — Python CLI Tool
 
 > A command-line encryption and decryption tool supporting multiple BaseX encoding schemes: **Base16**, **Base32**, **Base64**, and **Base85**.  
-> Developed in **Python** for learning and demonstration purposes.
+> Developed in **Python** as an educational project for learning and demonstrating BaseX encoding techniques.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)](https://www.python.org/)
@@ -17,10 +17,10 @@
 ## 📖 Introduction
 The **Encryption & Decryption System** is a lightweight Python-based program that allows you to securely **encode** and **decode** messages using different BaseX encoding formats.  
 It supports:
-- **Base85** (highest density text encoding)
-- **Base64** (common web encoding)
-- **Base32**
-- **Base16** (hexadecimal representation)
+- **Base85** — highest density text encoding
+- **Base64** — common web encoding
+- **Base32** — used in DNS and authentication keys
+- **Base16** — hexadecimal representation
 
 This is an **interactive terminal program**, perfect for practicing encoding techniques and understanding BaseX operations.
 
@@ -39,6 +39,17 @@ This is an **interactive terminal program**, perfect for practicing encoding tec
 
 ---
 
+## 📋 Supported Encodings
+
+| Encoding  | Type            | Purpose                           |
+|-----------|-----------------|-----------------------------------|
+| Base85    | Text encoding   | High-density ASCII representation |
+| Base64    | Text encoding   | Common in email/web data transfer |
+| Base32    | Text encoding   | Used in DNS & authentication keys |
+| Base16    | Hexadecimal     | Low-level data representation     |
+
+---
+
 ## 📂 Project Structure
 ```bash
 Encryption_Decryption-main/
@@ -53,13 +64,14 @@ Encryption_Decryption-main/
 1. Install Python:
    
    Ensure Python 3.8+ is installed:
-   ```bash
-   https://www.python.org/downloads/
+   
+   [Download Python](https://www.python.org/downloads/)
 
 2. Download or Clone the Project
    ```bash
    git clone https://github.com/LowZhiHorng/Encryption_Decryption.git
    cd Encryption_Decryption-main
+   ```
 
 3. Run the Program
    - For encryption:
@@ -106,6 +118,16 @@ What's your choice? (1/2/3/4): 2
 Decryption message: SGVsbG8gV29ybGQ=
 Decrypted message: Hello World
 ```
+
+---
+
+## ❗ Troubleshooting
+
+**Module not found** → Ensure you are running `Python 3.8+` and have no typos in file names.
+
+**UnicodeDecodeError during decryption** → Make sure you select the correct encoding type for the message.
+
+**Invalid choice** → Only enter `1`, `2`, `3`, or `4` when prompted.
 
 ---
 
