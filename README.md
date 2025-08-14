@@ -11,6 +11,7 @@
 [![Base32](https://img.shields.io/badge/Base32-Encoding-yellow?logo=lock&logoColor=black)](https://en.wikipedia.org/wiki/Base32)
 [![Base85](https://img.shields.io/badge/Base85-Encoding-brightgreen?logo=lock&logoColor=white)](https://en.wikipedia.org/wiki/Ascii85)
 [![Repetition](https://img.shields.io/badge/Repetition-Loop-blueviolet?logo=repeat&logoColor=white)](https://en.wikipedia.org/wiki/Control_flow#Loops)
+[![GitHub](https://img.shields.io/badge/GitHub-Encryption_Decryption-black?logo=github)](https://github.com/LowZhiHorng/Encryption_Decryption)
 
 ---
 
